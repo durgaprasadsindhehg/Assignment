@@ -1,0 +1,67 @@
+.heading{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.heading h1{
+    margin: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 35px;
+    font-family: cursive;
+    color: black;
+    box-shadow: 2px 2px 2px black;
+    
+
+}
+nav  {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: px;
+    background-color: white;
+    padding: 10px;
+   
+
+    
+
+}
+ a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold; 
+    transition:transform 0.3ms ease-in-out; 
+
+}
+a:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+ a:hover{
+ background-color: antiquewhite;
+}
+ a:active{
+ background-color:brown;
+}
+
+a:visited{
+    color:aqua;
+}
+
+ a:focus{
+ outline-color: yellow;
+}
+
+
+
+
+

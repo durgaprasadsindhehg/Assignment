@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color:#f1f1f1;
+    
+}
+.header{
+    margin-top:0px;
+    width: 100%;
+    padding: 10px;
+    display:flex;
+    flex-direction: row;
+    background-color:white;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.search-bar{
+    border-radius: 10px;
+    font-size: 18px;
+    width:600px;
+    background-color: transparent;
+   
+}
+
+.container-products{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    margin-bottom: 20px;
+  
+    
+   
+}
+.item{
+display: flex;
+ padding: 50px;
+ justify-content: space-evenly;
+ transition: transform 0.3ms ease-in-out;
+}
+
+.item img{
+    width: 100px;
+    height: 100px;
+}
+
+.item p{
+    text-align: center;
+    margin-top: 0px;
+}
+
+img:hover  {
+  transform: scale(0.9);
+}
+  
+
+  /* grid part start from here */
+  .mobile-grid {
+    display: grid;
+    grid-template-columns:300px 300px 300px 300px ;
+    justify-content: center;
+    gap: 50px;
+    margin: 50px 0px;
+  
+   
+  }
+
+
+/* mobile section flex starts from here */
+.mobile{
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    margin-bottom:50px;
+   
+
+  }
+  
+  .mobile img{
+    width: 300px;
+    height: 300px;
+    transition: transform 0.3ms ease-in-out;
+   
+  }
+  .description{
+    width: 300px;
+  }
+  .description h3, p{
+    text-align: center;
+  }
+  button{
+   position: relative;
+   left: 100px;
+  }
+
+.item :hover img{
+ transform: scale(0.9);
+}
+
+/* section starts from here */
+.section2 {
+display: flex;
+flex-direction: row;
+justify-content:space-evenly;
+width: 100%;
+
+}
+
+ 
+ .section2 img{
+ margin-left: 40px;
+ transition: transform 0.3ms ease-in-out;
+ }
+
+ .section2 img:hover{
+  transform: scale(0.9);
+ }
+
+ /* electronics starts from here */
+ .electronics-grid {
+  display: grid;
+  grid-template-columns:300px 300px 300px 300px  ;
+  justify-content: center;
+  gap: 50px;
+  margin: 50px 0px;
+
+}
+/* electronics flex section starts from here */
+.electronics{
+  padding: 20px;
+  display:flex;
+  flex-direction: column;
+  margin-bottom:50px;
+  transition: transform 0.3ms ease-in-out;
+
+}
+
+
+.details{
+  width: 300px;
+}
+.details h3, p{
+  text-align: center;
+}
+
+#gadgets{
+  width: 300px;
+  height: 300px;
+}
+
+.electronics:hover image{ 
+transform: scale(0.9);
+}
+
+/* footer */
+.footer{
+  background-color: black;
+  color: white;
+  padding: 30px;
+ }
+ 
+ .footer p{
+     padding: 10px;
+     width: 100%;
+     height: auto;
+     text-align: justify;
+    }

@@ -1,0 +1,40 @@
+/* grid section starst from here */
+
+.magazine-container{
+display: grid;
+grid-template-columns: repeat(2,500px);
+grid-template-rows:repeat(2,500px);
+gap: 200px;
+justify-content: center;
+height: 1000px;
+     
+}
+
+   
+
+.item-image{
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px white;
+
+}
+
+
+
+.item-content{
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px white;
+}
+
+
+/* flex starts from here */
+.item-content{
+    display: flex;
+    text-align: justify;
+    line-height: 35px;
+    font-size: 18px;
+    padding: 10px;
+
+}
+

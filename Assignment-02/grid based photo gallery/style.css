@@ -1,0 +1,158 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+
+/* grid section starts from here */
+
+.gallery-container{
+  display: grid;
+  grid-template-columns: repeat(3,300px);
+  grid-template-rows:repeat(3,300px);
+  gap: 100px;
+  justify-content:center;
+  height: 800px;
+  margin-bottom: 50px;
+
+}
+
+.item{
+  margin-top: 50px;
+  background-color:#f1f1f1;
+ 
+
+ 
+}
+
+/* image1 to image3 */
+.image1{
+  grid-row-start: 1;
+  grid-row-end:3;
+
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+/* image 1 hover effect */
+.image1 img{
+  width: 700px;
+  height:650px;
+  transition: transform 0.3ms ease-in-out;
+  
+}
+
+.image1:hover{
+  transform: scale(0.6);  
+}
+
+/* image hover effect */
+.image2 img{
+  width: 300px;
+  height:300px;
+  transition: transform 0.3ms ease-in-out;
+}
+
+.image2:hover{
+  transform: scale(0.9);  
+}
+/* image 3 hover effect  */
+.image3 img{
+  width: 300px;
+  height:300px;
+  transition: transform 0.3ms ease-in-out;
+}
+
+.image3:hover{
+  transform: scale(0.9);  
+}
+
+
+/* flex starts from here */
+
+figcaption{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-top: 20px;
+  text-transform: capitalize;
+
+}
+
+/* traditional section starts from here */
+/* grid section starts from here */
+
+.gallery-container1{
+  display: grid;
+  grid-template-columns: repeat(3,300px);
+  grid-template-rows:repeat(3,300px);
+  gap: 100px;
+  justify-content:center;
+  height: 800px;
+  margin-bottom: 50px;
+
+
+}
+
+.item{
+  margin-top: 50px;
+  background-color:#f1f1f1;
+ 
+}
+
+/* image1 to image3 */
+.image1{
+  grid-row-start: 1;
+  grid-row-end:3;
+
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+/* image 1 hover effect */
+.image1 img{
+  width: 700px;
+  height:650px;
+  transition: transform 0.3ms ease-in-out;
+  
+}
+
+.image1:hover{
+  transform: scale(0.6);  
+}
+
+/* image hover effect */
+.image2 img{
+  width: 300px;
+  height:300px;
+  transition: transform 0.3ms ease-in-out;
+}
+
+.image2:hover{
+  transform: scale(0.9);  
+}
+/* image 3 hover effect  */
+.image3 img{
+  width: 300px;
+  height:300px;
+  transition: transform 0.3ms ease-in-out;
+}
+
+.image3:hover{
+  transform: scale(0.9);  
+}
+
+
+/* flex starts from here */
+
+figcaption{
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-top: 20px;
+  text-transform: capitalize;
+ 
+
+}
+
+
+
+
+
+

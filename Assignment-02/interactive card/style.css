@@ -1,0 +1,80 @@
+/* Grid section part */
+.card-container{
+display: grid;
+grid-template-columns: 300px 300px 300px;
+grid-template-rows:repeat(3,300px);
+gap: 50px;
+}
+
+.card1{
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  border:1px solid black;
+  opacity:0.1;
+  transition: transform 03.ms ease-in-out;
+  box-shadow: 5px 5px 5px black;
+
+}
+.card1:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.card2{
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  border:1px solid black;
+  opacity:0.1;
+  transition: transform 03.ms ease-in-out;
+  box-shadow: 5px 5px 5px black;
+
+}
+.card2:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.card3{
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  border:1px solid black;
+  opacity:0.1;
+  transition: transform 03.ms ease-in-out;
+  box-shadow: 5px 5px 5px black;
+
+}
+.card3:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+img{
+    width: 250px;
+    height:260px;
+}
+/* flex starts fromm here */
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1{
+    width:250px;
+    padding: 10px;
+    text-align: center;
+}
+.card2{
+    width:250px;
+    padding: 10px;
+    text-align: center;
+}
+.card3{
+    width:250px;
+    padding: 10px;
+    text-align: center;
+}
+

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+a:hover{
+    background-color: #999;
+}
+a:active{
+    background-color: maroon;
+}
+a:visited{
+    color: blue;
+}
+a:focus{
+    outline: auto;outline-color:black;outline-style: dashed;
+}
+.flex-item2 li:nth-child(odd){
+    background-color: antiquewhite;
+}
+.flex-item2 li:nth-child(even){
+    background-color: rgb(86, 175, 199);
+}
+
+    </style>
+</head>
+<body>
+   
+    <h1>navigation menu</h1>
+
+    <div class="flex-container">
+    <h2>Menu With Pseudo Classes</h2>
+    <nav class=flex-item1>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="Service.html">Service</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+    </nav>
+
+    <h2>Nav Menu With Pseudo Classes-nth child</h2>
+    <nav class="flex-item2">
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="Service.html">Service</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+    </nav>
+</div>
+</body>
+</html>

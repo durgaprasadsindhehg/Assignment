@@ -1,0 +1,359 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #efdfd8;
+   
+ }
+
+ .head-section{
+    display:sticky;
+    top: 0px;
+    padding: 10px;
+    margin-bottom: 20px;
+   
+
+ }
+
+ .head-section h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-family:"lemon";
+    padding: 10PX;
+    color:black;
+    text-transform: capitalize;
+    box-shadow: 3px 3px 5px black;
+    
+
+ }
+ nav{
+     width: 100%;
+     height: 50px;
+     padding: 10px;
+     display: flex;
+     justify-content: space-evenly;
+     
+
+ }
+ a{
+   font-size: 25px;
+   font-family: 'Times New Roman', Times, serif;
+   text-decoration:none;
+   text-transform: capitalize;
+   font-weight: bold;
+   text-align: center;
+   color:black;
+   line-height: 50px;
+  
+
+   
+ }
+
+ /* hover effect for nav section  */
+ a:hover{
+   background-color:white;
+   width: auto;
+   height: 50px;
+ }
+
+
+ /* middle section starts from here */
+
+section{
+   display: flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 600px;
+
+   
+}
+.details{
+   text-align: center;
+   border: 5px solid black;
+   width: 600px;
+   height:200px;
+   padding: 50px;
+   border-radius: 10px;
+   box-shadow: 2px 2px 2px black;   
+   
+}
+
+h2{
+   margin-top: 20px;
+   text-transform: capitalize;
+   
+}
+p{
+ 
+   font-family: 'Times New Roman', Times, serif;
+   color:black;
+}
+
+h3{
+   margin-top: 20px;
+   text-transform: capitalize;
+   
+}
+   /* about page starts from here */
+   body{
+      margin: 0px;
+      padding: 0px;
+      background-color: #efdfd8;
+     
+   }
+   .head-about{
+      display:sticky;
+      top: 0px;
+      padding: 10px;
+      margin-bottom: 20px;
+     
+  
+   }
+  
+   .head-about h1{
+      text-align: center;
+      font-size: 45px;
+      font-weight: bold;
+      font-family:"lemon";
+      padding: 10PX;
+      color:black;
+      text-transform: capitalize;
+      box-shadow: 3px 3px 5px black;
+   }
+   .c-section{
+      display: flex;
+      justify-content:center;
+      width: 100%;
+   }
+   .content{
+      margin-top:50px;
+      width:800px;
+      height:400px;
+      border: 5px solid black;
+      text-align: justify;
+      line-height: 25px;
+      padding: 50px;
+      box-sizing: border-box;
+      border-radius: 20px;
+      box-shadow: 3px 3px 5px black;
+   
+   }
+
+   /* portfolio section starts from here */
+   body{
+      margin: 0px;
+      padding: 0px;
+      background-color: #efdfd8;
+     
+   }
+   .head-portfolio{
+      display:sticky;
+      top: 0px;
+      padding: 10px;
+      margin-bottom: 20px;
+     
+  
+   }
+  
+   .head-portfolio h1{
+      text-align: center;
+      font-size: 45px;
+      font-weight: bold;
+      font-family:"lemon";
+      padding: 10PX;
+      color:black;
+      text-transform: capitalize;
+      box-shadow: 3px 3px 5px black;
+   }
+   .project1{
+      display: flex;
+      justify-content:center;
+      width: 100%;
+   }
+   .project-details{
+      margin-top:50px;
+      width:800px;
+      height:400px;
+      border: 5px solid black;
+      text-align:justify;
+      line-height: 25px;
+      padding: 40px;
+      box-sizing: border-box;
+      border-radius: 20px;
+      box-shadow: 3px 3px 5px black;
+   
+   }
+   .project2{
+      display: flex;
+      justify-content:center;
+      width: 100%;
+   }
+   .project-details1{
+      margin-top:50px;
+      width:800px;
+      height:300px;
+      border: 5px solid black;
+      text-align:justify;
+      line-height: 25px;
+      padding: 40px;
+      box-sizing: border-box;
+      border-radius: 20px;
+      box-shadow: 3px 3px 5px black;
+   
+   }
+
+
+
+
+/* skills ection starts from here */
+
+body{
+   margin: 0px;
+   padding: 0px;
+   background-color: #efdfd8;
+  
+}
+.skills{
+   display:sticky;
+   top: 0px;
+   padding: 10px;
+   margin-bottom: 20px;
+  
+
+}
+
+.skills h1{
+   text-align: center;
+   font-size: 45px;
+   font-weight: bold;
+   font-family:"lemon";
+   padding: 10PX;
+   color:black;
+   text-transform: capitalize;
+   box-shadow: 3px 3px 5px black;
+}
+
+.software-skills{
+   display: flex;
+   justify-content:center;
+   width: 100%;
+}
+.softwares{
+   margin-top:50px;
+   width:800px;
+   height:200px;
+   border: 5px solid black;
+   text-align: justify;
+   line-height: 25px;
+   padding: 20px;
+   box-sizing: border-box;
+   border-radius: 20px;
+   box-shadow: 3px 3px 5px black;
+
+}
+ h2{
+   font-size: 25px;
+   font-weight: bold;
+   font-family:"lemon";
+   padding: 10PX;
+   color:black;
+   text-transform: capitalize;
+   margin-left: 50px;
+   text-decoration: underline;
+ 
+}
+
+/* contact section starts from here */
+body{
+   margin: 0px;
+   padding: 0px;
+   background-color: #efdfd8;
+  
+}
+.Contact{
+   display:sticky;
+   top: 0px;
+   padding: 10px;
+   margin-bottom: 20px;
+  
+
+}
+
+.Contact h1{
+   text-align: center;
+   font-size: 45px;
+   font-weight: bold;
+   font-family:"lemon";
+   padding: 10PX;
+   color:black;
+   text-transform: capitalize;
+   box-shadow: 3px 3px 5px black;
+}
+
+div.flex-container{
+   display:flex;
+   justify-content: center;
+  
+ }
+ form{
+  
+   border: 1px solid black;
+   width:500px;
+   height: 400px;
+   padding-left: 15px; 
+   line-height: 35px;
+   color: black;
+   font-weight: bold;
+   margin-top:5px;
+   border-radius: 10px;
+   box-shadow: 3px 3px 5px black;
+   
+}
+#name{
+   background-color:white;
+}
+#email{
+   background-color:white;
+}
+#Message{
+   background-color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+ 
+ 
+  
+ 

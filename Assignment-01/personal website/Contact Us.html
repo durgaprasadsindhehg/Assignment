@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- head section of the page -->
+    <div class="Contact"> 
+     <h1>Contact </h1>
+    </div>
+
+    <!-- main section sarts from here -->
+    <div class="flex-container">
+        <form autocomplete="on">
+            <label for="name">Name</label><br />
+            <input
+              type="text"
+              name="Name"
+              id="name"
+              placeholder="Enter Your Name"
+              required
+              autofocus
+            /><br />
+    
+            <label for="email">Email-id</label><br />
+            <input
+              type="email"
+              name="Email-id"
+              id="email"
+              placeholder="Enter Your Email-id"
+              required
+            /><br />
+            <label for="Message">Write Your Queries</label><br />
+            <textarea
+              name="Message"
+              id="Message"
+              cols="35"
+              rows="5"
+              required
+            ></textarea
+            ><br />
+    
+            <input type="reset" id="reset" /><br />
+    
+            <input type="submit" id="submit" /><br />
+        </form>
+</body>
+</html>
